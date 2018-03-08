@@ -10,7 +10,13 @@ This code presents 7 movies in a website that shows both a cover picture of the 
 		a. Right click fresh_tomatoes.html
 		b. Left click open with
 		c. choose a web browser 
-		
+
+# Credits 
+"entertainment_center.py" and "media.py" were created using the format provided in the Udacity Lectures for the Movie Trailer Website.
+
+"fresh_tomatoes.py" and "fresh_tomatoes.html" were downloaded from the Udacity website and left unchanged. 
+
+
 
 
 
