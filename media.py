@@ -20,7 +20,8 @@ class Movie():
               self.storyline = movie_storyline 
               self.poster_image_url = poster_image 
               self.trailer_youtube_url = trailer_youtube
-        """This method is used to open the trailer link"""
+      
+       """This method is used to open the trailer link"""
        def show_trailer(self):
               webbrowser.open(self.trailer_youtube_url)
               
