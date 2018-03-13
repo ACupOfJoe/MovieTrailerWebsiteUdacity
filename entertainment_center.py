@@ -15,9 +15,9 @@ that will be accessed on the fresh_tomatoes.html code"""
 
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
-                        "https://upload.wikimedia.org/wikipedia/en/1/" +
-                        "13/Toy_Story.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg", #NOQA
                         "https://www.youtube.com/watch?v=4KPTXpQehio")
+
 avatar = media.Movie("Avatar",
                      "A marine on an alien planet",
                      "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg", #NOQA
@@ -53,6 +53,7 @@ hunger_games = media.Movie("Hunger Games", "People watch kids fight" +
 movies = [avatar, toy_story, hitch, school_of_rock, ratatouille,
           midnight_in_paris, hunger_games]
 
+fresh_tomatoes.open_movies_page(movies)
 print(media.Movie.__doc__)
 print(media.Movie.__name__)
 print(media.Movie.__module__)
