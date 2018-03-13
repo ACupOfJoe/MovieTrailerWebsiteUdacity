@@ -16,7 +16,8 @@ This code presents 7 movies in a website that shows both a cover picture of the 
 
 "fresh_tomatoes.py" and "fresh_tomatoes.html" were downloaded from the Udacity website and left unchanged. 
 
-
+# Python Version Used: 
+Python 2.7
 
 
 
