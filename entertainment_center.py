@@ -53,4 +53,6 @@ hunger_games = media.Movie("Hunger Games", "People watch kids fight" +
 movies = [avatar, toy_story, hitch, school_of_rock, ratatouille,
           midnight_in_paris, hunger_games]
 
+# Open movies into a new web brwoser using the fresh_tomatoes'
+# open_movies_page method.
 fresh_tomatoes.open_movies_page(movies)
